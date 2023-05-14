@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce85a625-8206-4e5d-afdd-a5e581600d8c" name="Changes" comment="">
+    <list default="true" id="ce85a625-8206-4e5d-afdd-a5e581600d8c" name="Changes" comment="Test done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/vehicle/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vehicle/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vehicle/Motor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MotoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CarTest.java" afterDir="false" />
     </list>
@@ -44,14 +48,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.CarTest.car_should_start_when_doorIsClosed_and_engineIsOn">
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="car" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="car" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in java-pr">
+    <configuration name="All in java-pr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-pr" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-pr" />
       <option name="PACKAGE_NAME" value="" />
@@ -71,10 +91,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MotoTest.motor_should_start_when_engineIsOn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-pr" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MotoTest" />
+      <option name="METHOD_NAME" value="motor_should_start_when_engineIsOn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="vehicle in java-pr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-pr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vehicle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vehicle" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CarTest.car_should_start_when_doorIsClosed_and_engineIsOn" />
+        <item itemvalue="JUnit.All in java-pr" />
+        <item itemvalue="JUnit.vehicle in java-pr" />
         <item itemvalue="JUnit.CarTest" />
+        <item itemvalue="JUnit.CarTest.car_should_start_when_doorIsClosed_and_engineIsOn" />
+        <item itemvalue="JUnit.MotoTest.motor_should_start_when_engineIsOn" />
       </list>
     </recent_temporary>
   </component>
@@ -87,17 +134,18 @@
       <option name="presentableId" value="Default" />
       <updated>1684062987241</updated>
     </task>
+    <task id="LOCAL-00001" summary="Test done">
+      <created>1684083711648</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684083711648</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/CarTest.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Test done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test done" />
   </component>
 </project>
