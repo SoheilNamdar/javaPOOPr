@@ -1,10 +1,37 @@
+import org.junit.jupiter.api.Test;
+
 import static java.lang.System.out;
-public class CarTest {
+class CarTest {
+    @Test
+    void car_should_start_when_doorIsClosed_and_engineIsOn() {
+        Car car = new Car();
+        car.openDoor();
+        car.closeDoor();
+        car.move();
+
+        out.println("Is the door open ? " + car.ifDoorIsOpen);
+        out.println("------------------------------------------");
+
+        Car pride = new Car("Pride");
+        pride.startEngine();
+        pride.move();
+    }
+
     // Nested class
     class Car {
+
+        Car() {
+            //out.println("The car is moving forward with success ! ");
+            out.println("The car's built with success.");
+        }
+
+        Car(String brand){
+            this.brand = brand;
+            out.println("A new " + this.brand + " has been built.");
+        }
         // Data
-        Boolean ifDoorIsOpen;
-        Boolean ifEngineIsOn;
+        Boolean ifDoorIsOpen = true;
+        Boolean ifEngineIsOn = true;
         double length;
         double width;
         String brand;
@@ -30,9 +57,14 @@ public class CarTest {
             ifDoorIsOpen = false;
         }
 
-        void move(){
-            out.println("The car can move");
+        public void move() {
+            if (!ifDoorIsOpen && ifEngineIsOn) {
+                out.println("The car is moving forward. ");
+            } else {
+                out.println("The car is parked.");
+            }
         }
+
     }
 }
 
