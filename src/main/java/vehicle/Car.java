@@ -1,6 +1,6 @@
 package vehicle;
-
-public class Car {
+//Car is a Vehicle
+public class Car extends Vehicle {  // DRY: Don't Repeat Yourself
         // Nested class
         public Car() {
         }
@@ -8,15 +8,8 @@ public class Car {
             this.brand = brand;
         }
         boolean ifDoorIsOpen;
-        boolean ifEngineIsOn;
         String brand;
         Driver driver;
-        public void startEngine() {
-            ifEngineIsOn = true;
-        }
-        public void stopEngine() {
-            ifEngineIsOn = false;
-        }
         public void openDoor(){
             ifDoorIsOpen = true;
         }

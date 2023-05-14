@@ -1,13 +1,6 @@
 package vehicle;
-
-public class Motor {
-    private boolean ifEngineIsOn;
-    public void startEngine() {
-        ifEngineIsOn = true;
-    }
-    public void stopEngine() {
-        ifEngineIsOn = false;
-    }
+//Motor is a vehicle
+public class Motor extends Vehicle {
     public boolean isItThatMovingForward() {
         return ifEngineIsOn;
     }
