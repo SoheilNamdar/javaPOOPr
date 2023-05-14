@@ -7,8 +7,8 @@ public class Car {
         public Car(String brand){
             this.brand = brand;
         }
-        Boolean ifDoorIsOpen = false;
-        Boolean ifEngineIsOn = false;
+        boolean ifDoorIsOpen;
+        boolean ifEngineIsOn;
         String brand;
         Driver driver;
         public void startEngine() {
