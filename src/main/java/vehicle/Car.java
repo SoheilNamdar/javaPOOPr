@@ -1,6 +1,6 @@
 package vehicle;
 //Car is a Vehicle
-public class Car extends Vehicle {  // DRY: Don't Repeat Yourself
+public class Car extends Vehicle implements GearBox, WithDashboard {  // DRY: Don't Repeat Yourself
         // Nested class
         public Car() {
         }
@@ -10,7 +10,15 @@ public class Car extends Vehicle {  // DRY: Don't Repeat Yourself
         boolean ifDoorIsOpen;
         String brand;
         Driver driver;
-        public void openDoor(){
+    int dashboardCapacity;
+    String gearType;
+    public Car(String brand, int dashboardCapacity, String gearType) {
+        this.brand = brand;
+        this.gearType = gearType;
+        this.dashboardCapacity = dashboardCapacity;
+    }
+
+    public void openDoor(){
             ifDoorIsOpen = true;
         }
         public void closeDoor(){
@@ -23,4 +31,19 @@ public class Car extends Vehicle {  // DRY: Don't Repeat Yourself
                 return false;
             }
         }
+
+    @Override
+    public String getBrand() {
+        return brand;
+    }
+
+    @Override
+    public String type() {
+        return "Automatic";
+    }
+
+    @Override
+    public int capacity() {
+        return 100;
+    }
 }
