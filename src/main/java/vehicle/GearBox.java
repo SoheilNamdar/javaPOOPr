@@ -1,5 +1,5 @@
 package vehicle;
 
 public interface GearBox {
-    String type();
+    abstract String gearBoxKind();
 }

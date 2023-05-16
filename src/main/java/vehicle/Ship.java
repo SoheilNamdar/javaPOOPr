@@ -1,6 +1,6 @@
 package vehicle;
 
-public class Ship extends Vehicle{
+public class Ship extends Vehicle {
     @Override
     public boolean isItThatMovingForward() {
         return false;

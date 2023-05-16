@@ -1,7 +1,6 @@
 package vehicle;
 
-//Motor is a vehicle
-public class Motor extends Vehicle implements WithDashboard, GearBox{
+public class Motor extends Vehicle implements GearBox,Dashboard {
     public boolean isItThatMovingForward() {
         return ifEngineIsOn;
     }
@@ -12,12 +11,12 @@ public class Motor extends Vehicle implements WithDashboard, GearBox{
     }
 
     @Override
-    public int capacity() {
-        return 100;
+    public int dashboardCapacity() {
+        return capacity;
     }
 
     @Override
-    public String type() {
-        return "Automatic";
+    public String gearBoxKind() {
+        return kind;
     }
 }

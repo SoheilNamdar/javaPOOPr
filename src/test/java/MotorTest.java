@@ -1,18 +1,21 @@
 import org.junit.jupiter.api.Assertions;
-import vehicle.Motor;
 import org.junit.jupiter.api.Test;
+import vehicle.Motor;
 import vehicle.Vehicle;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class MotoTest {
+public class MotorTest {
     @Test
     void motor_should_start_when_engineIsOn() {
+        // Given
         Vehicle motor = new Motor();
 
+        // When
         motor.startEngine();
         boolean itThatMovingForward = motor.isItThatMovingForward();
 
-        Assertions.assertTrue(itThatMovingForward);
+        // Then
+        assertTrue(itThatMovingForward);
     }
 }

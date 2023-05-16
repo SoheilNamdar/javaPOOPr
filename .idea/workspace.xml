@@ -5,15 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce85a625-8206-4e5d-afdd-a5e581600d8c" name="Changes" comment="Test done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/vehicle/GearBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vehicle/PrintName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/vehicle/WithDashboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PrintVehicleNamesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vehicle/Dashboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MotorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/PrintVehiclesNameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vehicle/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicle/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vehicle/Driver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vehicle/GearBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicle/GearBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vehicle/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicle/Motor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vehicle/PrintName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicle/PrintName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vehicle/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicle/Ship.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicle/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/MotoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MotoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vehicle/WithDashboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MotoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PrintVehicleNamesTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="soheil-dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,14 +67,16 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="vehicle" />
       <recent name="" />
       <recent name="car" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="vehicle" />
       <recent name="car" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PrintVehicleNamesTest.printVehicleName">
+  <component name="RunManager" selected="JUnit.All in java-pr">
     <configuration name="All in java-pr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-pr" />
       <option name="PACKAGE_NAME" value="" />
@@ -77,56 +85,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MotoTest.motor_should_start_when_engineIsOn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarTest.car_should_start_when_doorIsClosed_and_engineIsOn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-pr" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MotoTest" />
+      <option name="MAIN_CLASS_NAME" value="CarTest" />
+      <option name="METHOD_NAME" value="car_should_start_when_doorIsClosed_and_engineIsOn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MotorTest.motor_should_start_when_engineIsOn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-pr" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MotorTest" />
       <option name="METHOD_NAME" value="motor_should_start_when_engineIsOn" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintVehicleNamesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrintVehiclesNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-pr" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PrintVehicleNamesTest" />
+      <option name="MAIN_CLASS_NAME" value="PrintVehiclesNameTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintVehicleNamesTest.printVehicleName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrintVehiclesNameTest.shouldPrintVehiclesName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-pr" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PrintVehicleNamesTest" />
-      <option name="METHOD_NAME" value="printVehicleName" />
+      <option name="MAIN_CLASS_NAME" value="PrintVehiclesNameTest" />
+      <option name="METHOD_NAME" value="shouldPrintVehiclesName" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="vehicle in java-pr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-pr" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="vehicle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="vehicle" />
-      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PrintVehicleNamesTest.printVehicleName" />
-        <item itemvalue="JUnit.PrintVehicleNamesTest" />
         <item itemvalue="JUnit.All in java-pr" />
-        <item itemvalue="JUnit.MotoTest.motor_should_start_when_engineIsOn" />
-        <item itemvalue="JUnit.vehicle in java-pr" />
+        <item itemvalue="JUnit.PrintVehiclesNameTest.shouldPrintVehiclesName" />
+        <item itemvalue="JUnit.PrintVehiclesNameTest" />
+        <item itemvalue="JUnit.MotorTest.motor_should_start_when_engineIsOn" />
+        <item itemvalue="JUnit.CarTest.car_should_start_when_doorIsClosed_and_engineIsOn" />
       </list>
     </recent_temporary>
   </component>

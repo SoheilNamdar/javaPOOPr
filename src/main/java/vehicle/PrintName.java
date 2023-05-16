@@ -1,22 +1,21 @@
 package vehicle;
 
 public class PrintName {
-    private Vehicle[] vehicles;
+    Vehicle[] vehicle;
 
     public PrintName(Vehicle[] vehicles) {
-        this.vehicles = vehicles;
+        this.vehicle = vehicles;
     }
+
     public String execute() {
-        String marks = "";
-        //for (Vehicle vehicle : vehicles)
-        for (int i=0; i< vehicles.length; i++){
-            Vehicle vehicle = vehicles[i];
-            if(i != vehicles.length - 1){
-                marks = marks + vehicle.getBrand() + "-";
+        String brands = "";
+        for (int i=0; i<vehicle.length; i++) {
+            if (i < vehicle.length-1 ) {
+                brands += vehicle[i].getBrand() + "-";
             } else {
-                marks = marks + vehicle.getBrand();
+                brands += vehicle[i].getBrand();
             }
         }
-        return marks;
+        return brands;
     }
 }
