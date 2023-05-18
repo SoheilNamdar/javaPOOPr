@@ -2,6 +2,8 @@ package org.example;
 
 import vehicle.Car;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -17,11 +19,16 @@ public class Main {
         Car car1 = new Car(brand, Integer.parseInt(capacity), type);
         System.out.println(car1.getBrand());
 
-        Car car = new Car();
-        if (car.isItThatMovingForward())  {
-            System.out.println("Moving forward.");
-        } else {
-        System.out.println("The car is parked.");
-        }
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("What is your name ? ");
+        String name = scanner.nextLine();
+
+        System.out.println("What is your age ?");
+        String age = scanner.nextLine();
+
+        System.out.println(name + " your are " + age + " years old." );
+
+
     }
 }
