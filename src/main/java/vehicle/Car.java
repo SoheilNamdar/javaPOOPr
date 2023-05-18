@@ -7,24 +7,21 @@ public class Car extends Vehicle implements GearBox, Dashboard  {  // DRY: Don't
     public Car(String brand){
         this.brand = brand;
     }
-    boolean ifDoorIsOpen;
-    String brand;
-
-    int dashboardCapacity;
-    String gearType;
     public Car(String brand, int dashboardCapacity, String gearType) {
         this.brand = brand;
         this.gearType = gearType;
         this.dashboardCapacity = dashboardCapacity;
     }
-
+    boolean ifDoorIsOpen;
+    String brand;
+    int dashboardCapacity;
+    String gearType;
     public void openDoor(){
             ifDoorIsOpen = true;
         }
     public void closeDoor(){
         ifDoorIsOpen = false;
     }
-
     public boolean isItThatMovingForward() {
         if (!ifDoorIsOpen && ifEngineIsOn) {
             return true;
