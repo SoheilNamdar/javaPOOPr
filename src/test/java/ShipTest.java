@@ -1,5 +1,5 @@
 import org.junit.jupiter.api.Test;
-import vehicle.Car;
+import vehicle.car.Car;
 import vehicle.Ship;
 import vehicle.Vehicle;
 

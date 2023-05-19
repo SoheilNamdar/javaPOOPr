@@ -2,8 +2,7 @@ package vehicle;
 
 public abstract class Vehicle {
     protected boolean ifEngineIsOn;
-    int capacity;
-    String kind;
+
     public void startEngine() {
         ifEngineIsOn = true;
     }

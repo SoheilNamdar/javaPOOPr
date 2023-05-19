@@ -1,6 +1,9 @@
 package vehicle;
 
 public class Motor extends Vehicle implements GearBox,Dashboard {
+    private int capacity;
+    private String kind;
+
     public boolean isItThatMovingForward() {
         return ifEngineIsOn;
     }

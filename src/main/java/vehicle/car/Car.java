@@ -1,6 +1,11 @@
-package vehicle;
+package vehicle.car;
+
+import vehicle.Dashboard;
+import vehicle.GearBox;
+import vehicle.Vehicle;
+
 //Car is a Vehicle
-public class Car extends Vehicle implements GearBox, Dashboard  {  // DRY: Don't Repeat Yourself
+public class Car extends Vehicle implements GearBox, Dashboard {  // DRY: Don't Repeat Yourself
         // Nested class
     public Car() {
     }
@@ -12,8 +17,10 @@ public class Car extends Vehicle implements GearBox, Dashboard  {  // DRY: Don't
         this.gearType = gearType;
         this.dashboardCapacity = dashboardCapacity;
     }
-    boolean ifDoorIsOpen;
-    String brand;
+    private boolean ifDoorIsOpen;
+    private int capacity;
+    private String kind;
+    private String brand;
     int dashboardCapacity;
     String gearType;
     public void openDoor(){

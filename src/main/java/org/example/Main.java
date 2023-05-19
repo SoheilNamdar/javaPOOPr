@@ -1,6 +1,6 @@
 package org.example;
 
-import vehicle.Car;
+import vehicle.car.Car;
 
 import java.util.Scanner;
 

@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce85a625-8206-4e5d-afdd-a5e581600d8c" name="Changes" comment="Test done">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ShipTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vehicle/car/Gear.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vehicle/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicle/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vehicle/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicle/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vehicle/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicle/car/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vehicle/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicle/Motor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicle/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PrintVehiclesNameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PrintVehiclesNameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ShipTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShipTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -67,22 +72,20 @@
       <recent name="car" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ShipTest.this_keyword">
+  <component name="RunManager" selected="JUnit.All in java-pr">
+    <configuration name="All in java-pr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-pr" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShipTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-pr" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ShipTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShipTest.should_be_protected_method" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-pr" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShipTest" />
-      <option name="METHOD_NAME" value="should_be_protected_method" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,15 +125,15 @@
       <item itemvalue="JUnit.ShipTest.super_keyword" />
       <item itemvalue="JUnit.ShipTest.this_keyword" />
       <item itemvalue="JUnit.ShipTest.toString" />
-      <item itemvalue="JUnit.ShipTest.should_be_protected_method" />
+      <item itemvalue="JUnit.All in java-pr" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in java-pr" />
         <item itemvalue="JUnit.ShipTest.this_keyword" />
         <item itemvalue="JUnit.ShipTest.toString" />
         <item itemvalue="JUnit.ShipTest.super_keyword" />
         <item itemvalue="JUnit.ShipTest" />
-        <item itemvalue="JUnit.ShipTest.should_be_protected_method" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684407890673</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Test done">
+      <created>1684484154200</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1684484154200</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
