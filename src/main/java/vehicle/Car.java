@@ -29,19 +29,25 @@ public class Car extends Vehicle implements GearBox, Dashboard  {  // DRY: Don't
             return false;
         }
     }
-
     @Override
     public String getBrand() {
         return brand;
     }
-
     @Override
     public int dashboardCapacity() {
         return capacity;
     }
-
     @Override
     public String gearBoxKind() {
         return kind;
+    }
+    @Override
+    public String toString() {
+        return "Car{" +
+                "ifDoorIsOpen=" + ifDoorIsOpen +
+                ", brand='" + brand + '\'' +
+                ", dashboardCapacity=" + dashboardCapacity +
+                ", gearType='" + gearType + '\'' +
+                '}';
     }
 }
