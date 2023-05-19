@@ -1,6 +1,7 @@
 package org.example;
 
 import vehicle.car.Car;
+import vehicle.car.Gear;
 
 import java.util.Scanner;
 
@@ -15,7 +16,7 @@ public class Main {
 
         String brand = args[0];
         String capacity = args[1];
-        String type = args[2];
+        Gear type = Gear.valueOf(args[2]);
         Car car1 = new Car(brand, Integer.parseInt(capacity), type);
         System.out.println(car1.getBrand());
 

@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce85a625-8206-4e5d-afdd-a5e581600d8c" name="Changes" comment="Test done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/vehicle/car/Gear.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vehicle/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicle/car/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vehicle/GearBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicle/GearBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/vehicle/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicle/Motor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicle/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vehicle/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicle/car/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PrintVehiclesNameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PrintVehiclesNameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ShipTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShipTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +69,21 @@
       <recent name="car" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in java-pr">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="java-pr" />
+      <option name="PROGRAM_PARAMETERS" value="BMW 50 AUTOMATIC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in java-pr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-pr" />
       <option name="PACKAGE_NAME" value="" />
@@ -81,10 +92,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShipTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PrintVehiclesNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-pr" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShipTest" />
+      <option name="MAIN_CLASS_NAME" value="PrintVehiclesNameTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,19 +132,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ShipTest" />
+      <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.ShipTest.super_keyword" />
       <item itemvalue="JUnit.ShipTest.this_keyword" />
       <item itemvalue="JUnit.ShipTest.toString" />
+      <item itemvalue="JUnit.PrintVehiclesNameTest" />
       <item itemvalue="JUnit.All in java-pr" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PrintVehiclesNameTest" />
         <item itemvalue="JUnit.All in java-pr" />
         <item itemvalue="JUnit.ShipTest.this_keyword" />
         <item itemvalue="JUnit.ShipTest.toString" />
         <item itemvalue="JUnit.ShipTest.super_keyword" />
-        <item itemvalue="JUnit.ShipTest" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684484154200</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Test done">
+      <created>1684484945970</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684484945970</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

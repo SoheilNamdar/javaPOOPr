@@ -1,28 +1,22 @@
 package vehicle.car;
-
 import vehicle.Dashboard;
 import vehicle.GearBox;
 import vehicle.Vehicle;
 
 //Car is a Vehicle
 public class Car extends Vehicle implements GearBox, Dashboard {  // DRY: Don't Repeat Yourself
-        // Nested class
-    public Car() {
-    }
+    private boolean ifDoorIsOpen;
+    private String brand;
+    private int dashboardCapacity;
+    private Gear gearType;
     public Car(String brand){
         this.brand = brand;
     }
-    public Car(String brand, int dashboardCapacity, String gearType) {
+    public Car(String brand, int dashboardCapacity, Gear gearType) {
         this.brand = brand;
         this.gearType = gearType;
         this.dashboardCapacity = dashboardCapacity;
     }
-    private boolean ifDoorIsOpen;
-    private int capacity;
-    private String kind;
-    private String brand;
-    int dashboardCapacity;
-    String gearType;
     public void openDoor(){
             ifDoorIsOpen = true;
         }
@@ -30,11 +24,7 @@ public class Car extends Vehicle implements GearBox, Dashboard {  // DRY: Don't 
         ifDoorIsOpen = false;
     }
     public boolean isItThatMovingForward() {
-        if (!ifDoorIsOpen && ifEngineIsOn) {
-            return true;
-        } else {
-            return false;
-        }
+        return !ifDoorIsOpen && ifEngineIsOn;
     }
     @Override
     public String getBrand() {
@@ -42,11 +32,11 @@ public class Car extends Vehicle implements GearBox, Dashboard {  // DRY: Don't 
     }
     @Override
     public int dashboardCapacity() {
-        return capacity;
+        return dashboardCapacity;
     }
     @Override
-    public String gearBoxKind() {
-        return kind;
+    public Gear gearBoxKind() {
+        return gearType;
     }
     @Override
     public String toString() {

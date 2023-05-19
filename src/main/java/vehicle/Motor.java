@@ -1,8 +1,10 @@
 package vehicle;
 
+import vehicle.car.Gear;
+
 public class Motor extends Vehicle implements GearBox,Dashboard {
-    private int capacity;
-    private String kind;
+    private int dashboardCapacity;
+    private Gear gearType;
 
     public boolean isItThatMovingForward() {
         return ifEngineIsOn;
@@ -15,11 +17,11 @@ public class Motor extends Vehicle implements GearBox,Dashboard {
 
     @Override
     public int dashboardCapacity() {
-        return capacity;
+        return dashboardCapacity;
     }
 
     @Override
-    public String gearBoxKind() {
-        return kind;
+    public Gear gearBoxKind() {
+        return gearType;
     }
 }
