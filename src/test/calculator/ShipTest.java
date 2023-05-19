@@ -2,6 +2,7 @@ import org.junit.jupiter.api.Test;
 import vehicle.car.Car;
 import vehicle.Ship;
 import vehicle.Vehicle;
+import vehicle.car.Gear;
 
 public class ShipTest {
     @Test
@@ -19,7 +20,7 @@ public class ShipTest {
         Ship ship = new Ship();
         ship.printReference();
         ship.printReferenceObject(this);
-        Car car = new Car("ford", 20, "Manual");
+        Car car = new Car("ford", 20, Gear.MANUAL);
         ship.printReferenceObject(car);
     }
 }
