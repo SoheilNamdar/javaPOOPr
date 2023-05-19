@@ -1,3 +1,5 @@
+package vehicle;
+
 import org.junit.jupiter.api.Test;
 import vehicle.car.Car;
 import vehicle.Ship;
@@ -10,13 +12,15 @@ public class ShipTest {
         Ship ship = new Ship();
         ship.isItThatMovingForward();
     }
+
     @Test
     void super_keyword() {
         Vehicle ship = new Ship();
         System.out.println(ship);
     }
+
     @Test
-    public void this_keyword(){
+    public void this_keyword() {
         Ship ship = new Ship();
         ship.printReference();
         ship.printReferenceObject(this);
