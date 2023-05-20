@@ -3,43 +3,86 @@ package collection.list;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+
+import static org.assertj.core.api.Assertions.assertThat;
 
 public class ArrayListTest {
     @Test
     void Should_Be_Empty_When_Created() {
         ArrayList<String> string = new ArrayList<>();
-        Assertions.assertThat(string).isEmpty();
+        assertThat(string).isEmpty();
+    }
+
+    @Test
+    void Should_Be_Immutable() {
+        List<String> animals = new ArrayList<>();
+        animals.add("Dog");
+        animals.add("Cat");
+        animals.add("Cat");
+        animals.add("Cat");
+        animals.add("Fish");
+
+        List<String> unmodifiableAnimals = Collections.unmodifiableList(animals);
+        // unmodifiableAnimals.add("Pig"); // doesn't work
+
+        animals.remove("Cat");
+
+    }
+
+    @Test
+    void should_reverse_list() {
+        // Given
+        List<String> animals = new ArrayList<>();
+        animals.add("Dog");
+        animals.add("Cat");     // index 1
+        animals.add("Cat");     // index 2
+        animals.add("Cat");     // index 3
+        animals.add("Fish");
+
+        List<String> reversedAnimals = new ArrayList<>();
+        reversedAnimals.add("Fish");
+        reversedAnimals.add("Cat");
+        reversedAnimals.add("Cat");
+        reversedAnimals.add("Cat");
+        reversedAnimals.add("Dog");
+
+        // When
+        Collections.reverse(animals);
+
+        // Then
+        assertThat(animals).isEqualTo(reversedAnimals);
+        assertThat(animals.indexOf("Cat")).isEqualTo(1);
+        assertThat(animals.lastIndexOf("Cat")).isEqualTo(3);
+        assertThat(animals.contains("Cat")).isTrue();
     }
 
     @Test
     void Should_Return_An_ArrayList_From_An_Array() {
         // Given
-        int[] arrayNumber = {1,2,3,3};
+        int[] arrayList = {1, 2, 3};
 
         // When
         Converter converter = new Converter();
-        List<Integer> arrayListNumber = converter.convertList(arrayNumber);
-        arrayListNumber.add(4,99);
+        List<Integer> arrayList1 = converter.convert(arrayList);
+        arrayList1.remove(1);
 
         // Then
-        List<Integer> integerList = new ArrayList<>();
-        integerList.add(0,1);
-        integerList.add(1,2);
-        integerList.add(2,3);
-        integerList.add(3,3);
-        integerList.add(4,99);
-        Assertions.assertThat(arrayListNumber).isEqualTo(integerList);
-    }
+        ArrayList<Integer> arrayList2 = new ArrayList<>();
+        arrayList2.add(1);
+        //arrayList2.add(2);
+        arrayList2.add(3);
 
+        assertThat(arrayList1).isEqualTo(arrayList2);
+    }
     private class Converter {
-        public List<Integer> convertList(int[] arrayNumber) {
-            List<Integer> listNumbers = new ArrayList<>();
-            for (int number : arrayNumber) {
-                listNumbers.add(number);
+        public List<Integer> convert(int[] intArray) {
+            ArrayList<Integer> arrayList = new ArrayList<>();
+            for (int i : intArray){
+                arrayList.add(i);
             }
-            System.out.println(listNumbers);
-            return listNumbers;
+            return arrayList;
         }
     }
 }

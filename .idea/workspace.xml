@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce85a625-8206-4e5d-afdd-a5e581600d8c" name="Changes" comment="Test done">
+      <change afterPath="$PROJECT_DIR$/src/test/vehicle/EnumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vehicle/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicle/car/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vehicle/car/Gear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicle/car/Gear.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/collection/list/ArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/collection/list/ArrayListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/vehicle/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/vehicle/CarTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +63,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="collection.list" />
       <recent name="vehicle" />
       <recent name="" />
       <recent name="car" />
@@ -68,7 +73,7 @@
       <recent name="car" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MathTest">
+  <component name="RunManager" selected="JUnit.CarTest.should_print_car">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="java-pr" />
@@ -83,7 +88,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListTest.Should_Be_Empty_When_Created" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ArrayListTest.Should_Be_Immutable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-pr" />
       <extension name="coverage">
         <pattern>
@@ -93,58 +98,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="collection.list" />
       <option name="MAIN_CLASS_NAME" value="collection.list.ArrayListTest" />
-      <option name="METHOD_NAME" value="Should_Be_Empty_When_Created" />
+      <option name="METHOD_NAME" value="Should_Be_Immutable" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListTest.Should_Return_An_ArrayList_From_An_Array" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-pr" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collection.list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="collection.list" />
-      <option name="MAIN_CLASS_NAME" value="collection.list.ArrayListTest" />
-      <option name="METHOD_NAME" value="Should_Return_An_ArrayList_From_An_Array" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MathTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-pr" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="calculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="calculator" />
-      <option name="MAIN_CLASS_NAME" value="calculator.MathTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="collection.list in java-pr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-pr" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collection.list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="collection.list" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="vehicle in java-pr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarTest.should_print_car" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-pr" />
       <extension name="coverage">
         <pattern>
@@ -153,26 +113,76 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="vehicle" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="vehicle.CarTest" />
+      <option name="METHOD_NAME" value="should_print_car" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnumTest.should_print_enum_values" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-pr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vehicle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vehicle" />
+      <option name="MAIN_CLASS_NAME" value="vehicle.EnumTest" />
+      <option name="METHOD_NAME" value="should_print_enum_values" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnumTest.should_print_in_french" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-pr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vehicle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vehicle" />
+      <option name="MAIN_CLASS_NAME" value="vehicle.EnumTest" />
+      <option name="METHOD_NAME" value="should_print_in_french" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnumTest.should_print_in_persian" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-pr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vehicle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vehicle" />
+      <option name="MAIN_CLASS_NAME" value="vehicle.EnumTest" />
+      <option name="METHOD_NAME" value="should_print_in_persian" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.ArrayListTest.Should_Be_Empty_When_Created" />
-      <item itemvalue="JUnit.ArrayListTest.Should_Return_An_ArrayList_From_An_Array" />
-      <item itemvalue="JUnit.MathTest" />
-      <item itemvalue="JUnit.collection.list in java-pr" />
-      <item itemvalue="JUnit.vehicle in java-pr" />
+      <item itemvalue="JUnit.ArrayListTest.Should_Be_Immutable" />
+      <item itemvalue="JUnit.CarTest.should_print_car" />
+      <item itemvalue="JUnit.EnumTest.should_print_enum_values" />
+      <item itemvalue="JUnit.EnumTest.should_print_in_french" />
+      <item itemvalue="JUnit.EnumTest.should_print_in_persian" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MathTest" />
-        <item itemvalue="JUnit.collection.list in java-pr" />
-        <item itemvalue="JUnit.vehicle in java-pr" />
-        <item itemvalue="JUnit.ArrayListTest.Should_Return_An_ArrayList_From_An_Array" />
-        <item itemvalue="JUnit.ArrayListTest.Should_Be_Empty_When_Created" />
+        <item itemvalue="JUnit.CarTest.should_print_car" />
+        <item itemvalue="JUnit.EnumTest.should_print_in_persian" />
+        <item itemvalue="JUnit.EnumTest.should_print_in_french" />
+        <item itemvalue="JUnit.EnumTest.should_print_enum_values" />
+        <item itemvalue="JUnit.ArrayListTest.Should_Be_Immutable" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684503839396</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Test done">
+      <created>1684574035603</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684574035603</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

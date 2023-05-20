@@ -3,6 +3,7 @@ package vehicle;
 import vehicle.car.Car;
 import org.junit.jupiter.api.Test;
 import vehicle.Vehicle;
+import vehicle.car.Gear;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -19,6 +20,12 @@ class CarTest {
 
         assertFalse(isItThatMovingForward);
         assertTrue(itThatMovingForward);
+    }
+
+    @Test
+    void should_print_car() {
+        Car car = new Car("Peugeot",140, Gear.MANUAL);
+        System.out.println(car.toString());
     }
 }
 
