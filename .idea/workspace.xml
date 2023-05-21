@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce85a625-8206-4e5d-afdd-a5e581600d8c" name="Changes" comment="Test done">
-      <change afterPath="$PROJECT_DIR$/src/test/collection/list/SetTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/collection/list/ArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/collection/list/ListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/collection/list/SetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/collection/list/SetTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,7 @@
       <recent name="car" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.collection.list in java-pr">
+  <component name="RunManager" selected="JUnit.SetTest.should_maintain_insertion_order">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="java-pr" />
@@ -101,22 +100,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumTest.should_print_in_french" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-pr" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="vehicle.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="vehicle" />
-      <option name="MAIN_CLASS_NAME" value="vehicle.EnumTest" />
-      <option name="METHOD_NAME" value="should_print_in_french" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EnumTest.should_print_in_persian" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-pr" />
       <extension name="coverage">
@@ -128,6 +111,22 @@
       <option name="PACKAGE_NAME" value="vehicle" />
       <option name="MAIN_CLASS_NAME" value="vehicle.EnumTest" />
       <option name="METHOD_NAME" value="should_print_in_persian" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SetTest.should_maintain_insertion_order" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-pr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.list.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="collection.list" />
+      <option name="MAIN_CLASS_NAME" value="collection.list.SetTest" />
+      <option name="METHOD_NAME" value="should_maintain_insertion_order" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,18 +165,18 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.CarTest.should_print_car" />
-      <item itemvalue="JUnit.EnumTest.should_print_in_french" />
       <item itemvalue="JUnit.EnumTest.should_print_in_persian" />
+      <item itemvalue="JUnit.SetTest.should_maintain_insertion_order" />
       <item itemvalue="JUnit.SetTest.should_remove_duplications" />
       <item itemvalue="JUnit.collection.list in java-pr" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.collection.list in java-pr" />
+        <item itemvalue="JUnit.SetTest.should_maintain_insertion_order" />
         <item itemvalue="JUnit.SetTest.should_remove_duplications" />
+        <item itemvalue="JUnit.collection.list in java-pr" />
         <item itemvalue="JUnit.CarTest.should_print_car" />
         <item itemvalue="JUnit.EnumTest.should_print_in_persian" />
-        <item itemvalue="JUnit.EnumTest.should_print_in_french" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684620724985</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Test done">
+      <created>1684650545407</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684650545407</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
