@@ -1,6 +1,4 @@
 package collection.list;
-
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -8,7 +6,7 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class ArrayListTest {
+public class ListTest {
     @Test
     void Should_Be_Empty_When_Created() {
         ArrayList<String> string = new ArrayList<>();
