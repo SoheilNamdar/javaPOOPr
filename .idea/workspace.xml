@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce85a625-8206-4e5d-afdd-a5e581600d8c" name="Changes" comment="Test done">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/io/FileWriterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/collection/map/CompareCollectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/collection/map/TreeMapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vehicle/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicle/car/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/io/FileWriterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/io/FileWriterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,7 @@
       <recent name="car" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FileWriterTest.should_write_in_a_file">
+  <component name="RunManager" selected="JUnit.CompareCollectionTest.should_compare_hash_collections">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="java-pr" />
@@ -86,17 +87,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompareCarTest.should_compare_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompareCollectionTest.should_compare_hash_collections" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-pr" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="compare.*" />
+          <option name="PATTERN" value="collection.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="compare" />
-      <option name="MAIN_CLASS_NAME" value="compare.CompareCarTest" />
-      <option name="METHOD_NAME" value="should_compare_test" />
+      <option name="PACKAGE_NAME" value="collection.map" />
+      <option name="MAIN_CLASS_NAME" value="collection.map.CompareCollectionTest" />
+      <option name="METHOD_NAME" value="should_compare_hash_collections" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompareCollectionTest.should_compare_non_hash_collections" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-pr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.map.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="collection.map" />
+      <option name="MAIN_CLASS_NAME" value="collection.map.CompareCollectionTest" />
+      <option name="METHOD_NAME" value="should_compare_non_hash_collections" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -118,7 +135,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapTest.should_have_unique_key_and_multiple_values" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeMapTest.Should_sort_elements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-pr" />
       <extension name="coverage">
         <pattern>
@@ -127,14 +144,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="collection.map" />
-      <option name="MAIN_CLASS_NAME" value="collection.map.MapTest" />
-      <option name="METHOD_NAME" value="should_have_unique_key_and_multiple_values" />
+      <option name="MAIN_CLASS_NAME" value="collection.map.TreeMapTest" />
+      <option name="METHOD_NAME" value="Should_sort_elements" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MapTest.should_have_unique_key_and_values" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeMapTest.Should_sort_elements_in_reverse_order" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-pr" />
       <extension name="coverage">
         <pattern>
@@ -143,43 +160,28 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="collection.map" />
-      <option name="MAIN_CLASS_NAME" value="collection.map.MapTest" />
-      <option name="METHOD_NAME" value="should_have_unique_key_and_values" />
+      <option name="MAIN_CLASS_NAME" value="collection.map.TreeMapTest" />
+      <option name="METHOD_NAME" value="Should_sort_elements_in_reverse_order" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TypeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-pr" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="compare.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="compare" />
-      <option name="MAIN_CLASS_NAME" value="compare.TypeTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.CompareCarTest.should_compare_test" />
+      <item itemvalue="JUnit.CompareCollectionTest.should_compare_hash_collections" />
+      <item itemvalue="JUnit.CompareCollectionTest.should_compare_non_hash_collections" />
       <item itemvalue="JUnit.FileWriterTest.should_write_in_a_file" />
-      <item itemvalue="JUnit.MapTest.should_have_unique_key_and_multiple_values" />
-      <item itemvalue="JUnit.MapTest.should_have_unique_key_and_values" />
-      <item itemvalue="JUnit.TypeTest" />
+      <item itemvalue="JUnit.TreeMapTest.Should_sort_elements" />
+      <item itemvalue="JUnit.TreeMapTest.Should_sort_elements_in_reverse_order" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CompareCollectionTest.should_compare_hash_collections" />
+        <item itemvalue="JUnit.CompareCollectionTest.should_compare_non_hash_collections" />
+        <item itemvalue="JUnit.TreeMapTest.Should_sort_elements" />
+        <item itemvalue="JUnit.TreeMapTest.Should_sort_elements_in_reverse_order" />
         <item itemvalue="JUnit.FileWriterTest.should_write_in_a_file" />
-        <item itemvalue="JUnit.MapTest.should_have_unique_key_and_multiple_values" />
-        <item itemvalue="JUnit.MapTest.should_have_unique_key_and_values" />
-        <item itemvalue="JUnit.CompareCarTest.should_compare_test" />
-        <item itemvalue="JUnit.TypeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684744154780</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Test done">
+      <created>1684747268495</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1684747268495</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -60,9 +60,9 @@ public class Car extends Vehicle implements GearBox, Dashboard {  // DRY: Don't 
                 && gearType == car.gearType;
     }
 
-//    @Override
-//    public int hashCode() {
-//        return Objects.hash(brand, dashboardCapacity, gearType);
-//    }
+    @Override
+    public int hashCode() {
+        return Objects.hash(brand, dashboardCapacity, gearType);
+    }
 }
 
