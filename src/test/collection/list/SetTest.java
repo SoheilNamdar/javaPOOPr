@@ -4,6 +4,8 @@ import org.junit.jupiter.api.Test;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.TreeSet;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class SetTest {
@@ -36,6 +38,21 @@ public class SetTest {
         fruit.add("Mandarin");
         fruit.add("Mandarin");
         fruit.add("apple");
+
+        // Any duplicate, Order is important
+        for (String s : fruit)
+            System.out.println(s);
+    }
+
+    @Test
+    void should_TreeSet_sort_data() {
+        Set<String> fruit = new TreeSet<>();
+        fruit.add("Banana");
+        fruit.add("apple");
+        fruit.add("Orange");
+        fruit.add("Mandarin");
+        //fruit.add("Mandarin");
+
 
         // Any duplicate, Order is important
         for (String s : fruit)

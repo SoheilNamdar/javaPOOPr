@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce85a625-8206-4e5d-afdd-a5e581600d8c" name="Changes" comment="Test done">
+      <change afterPath="$PROJECT_DIR$/src/test/collection/map/MapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/compare/CompareCarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/compare/TypeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vehicle/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicle/car/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/collection/list/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/collection/list/ListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/collection/list/SetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/collection/list/SetTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +75,7 @@
       <recent name="car" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SetTest.should_maintain_insertion_order">
+  <component name="RunManager" selected="JUnit.MapTest.should_have_unique_key_and_multiple_values">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="java-pr" />
@@ -84,99 +90,100 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CarTest.should_print_car" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompareCarTest.should_compare_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-pr" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="vehicle.*" />
+          <option name="PATTERN" value="compare.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="vehicle" />
-      <option name="MAIN_CLASS_NAME" value="vehicle.CarTest" />
-      <option name="METHOD_NAME" value="should_print_car" />
+      <option name="PACKAGE_NAME" value="compare" />
+      <option name="MAIN_CLASS_NAME" value="compare.CompareCarTest" />
+      <option name="METHOD_NAME" value="should_compare_test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumTest.should_print_in_persian" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MapTest.should_have_unique_key_and_multiple_values" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-pr" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="vehicle.*" />
+          <option name="PATTERN" value="collection.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="vehicle" />
-      <option name="MAIN_CLASS_NAME" value="vehicle.EnumTest" />
-      <option name="METHOD_NAME" value="should_print_in_persian" />
+      <option name="PACKAGE_NAME" value="collection.map" />
+      <option name="MAIN_CLASS_NAME" value="collection.map.MapTest" />
+      <option name="METHOD_NAME" value="should_have_unique_key_and_multiple_values" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetTest.should_maintain_insertion_order" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MapTest.should_have_unique_key_and_values" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-pr" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.list.*" />
+          <option name="PATTERN" value="collection.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="collection.list" />
-      <option name="MAIN_CLASS_NAME" value="collection.list.SetTest" />
-      <option name="METHOD_NAME" value="should_maintain_insertion_order" />
+      <option name="PACKAGE_NAME" value="collection.map" />
+      <option name="MAIN_CLASS_NAME" value="collection.map.MapTest" />
+      <option name="METHOD_NAME" value="should_have_unique_key_and_values" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetTest.should_remove_duplications" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TypeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-pr" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.list.*" />
+          <option name="PATTERN" value="compare.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="collection.list" />
-      <option name="MAIN_CLASS_NAME" value="collection.list.SetTest" />
-      <option name="METHOD_NAME" value="should_remove_duplications" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="compare" />
+      <option name="MAIN_CLASS_NAME" value="compare.TypeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="collection.list in java-pr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TypeTest.should_handle_null_objects" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-pr" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.list.*" />
+          <option name="PATTERN" value="compare.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="collection.list" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="PACKAGE_NAME" value="compare" />
+      <option name="MAIN_CLASS_NAME" value="compare.TypeTest" />
+      <option name="METHOD_NAME" value="should_handle_null_objects" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.CarTest.should_print_car" />
-      <item itemvalue="JUnit.EnumTest.should_print_in_persian" />
-      <item itemvalue="JUnit.SetTest.should_maintain_insertion_order" />
-      <item itemvalue="JUnit.SetTest.should_remove_duplications" />
-      <item itemvalue="JUnit.collection.list in java-pr" />
+      <item itemvalue="JUnit.CompareCarTest.should_compare_test" />
+      <item itemvalue="JUnit.MapTest.should_have_unique_key_and_multiple_values" />
+      <item itemvalue="JUnit.MapTest.should_have_unique_key_and_values" />
+      <item itemvalue="JUnit.TypeTest" />
+      <item itemvalue="JUnit.TypeTest.should_handle_null_objects" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SetTest.should_maintain_insertion_order" />
-        <item itemvalue="JUnit.SetTest.should_remove_duplications" />
-        <item itemvalue="JUnit.collection.list in java-pr" />
-        <item itemvalue="JUnit.CarTest.should_print_car" />
-        <item itemvalue="JUnit.EnumTest.should_print_in_persian" />
+        <item itemvalue="JUnit.MapTest.should_have_unique_key_and_multiple_values" />
+        <item itemvalue="JUnit.MapTest.should_have_unique_key_and_values" />
+        <item itemvalue="JUnit.CompareCarTest.should_compare_test" />
+        <item itemvalue="JUnit.TypeTest" />
+        <item itemvalue="JUnit.TypeTest.should_handle_null_objects" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684650545407</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Test done">
+      <created>1684651835928</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684651835928</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

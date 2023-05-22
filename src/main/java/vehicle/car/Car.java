@@ -3,6 +3,8 @@ import vehicle.Dashboard;
 import vehicle.GearBox;
 import vehicle.Vehicle;
 
+import java.util.Objects;
+
 //Car is a Vehicle
 public class Car extends Vehicle implements GearBox, Dashboard {  // DRY: Don't Repeat Yourself
     private boolean ifDoorIsOpen;
@@ -47,4 +49,20 @@ public class Car extends Vehicle implements GearBox, Dashboard {  // DRY: Don't 
                 " ,gearType = '" + gearType.toFrench() + " - " + gearType.toPersian() + '\'' +
                 '}';
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Car car = (Car) o;
+        return dashboardCapacity == car.dashboardCapacity
+                && Objects.equals(brand, car.brand)
+                && gearType == car.gearType;
+    }
+
+//    @Override
+//    public int hashCode() {
+//        return Objects.hash(brand, dashboardCapacity, gearType);
+//    }
 }
+
