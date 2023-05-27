@@ -6,7 +6,7 @@ import vehicle.Vehicle;
 import java.util.Objects;
 
 //Car is a Vehicle
-public class Car extends Vehicle implements GearBox, Dashboard {  // DRY: Don't Repeat Yourself
+public class Car extends Vehicle implements GearBox, Dashboard, Comparable<Car> {  // DRY: Don't Repeat Yourself
     private boolean ifDoorIsOpen;
     private String brand;
     private int dashboardCapacity;
@@ -63,6 +63,19 @@ public class Car extends Vehicle implements GearBox, Dashboard {  // DRY: Don't 
     @Override
     public int hashCode() {
         return Objects.hash(brand, dashboardCapacity, gearType);
+    }
+
+    @Override
+    public int compareTo(Car o) {
+        int compareBasedOnDashBoardCapacity = Integer.compare(this.dashboardCapacity, o.dashboardCapacity);
+        if (compareBasedOnDashBoardCapacity == 0){
+            if (Objects.equals(this.gearType, Gear.MANUAL)){
+                return -1;
+            } else {
+                return 1;
+            }
+        }
+        return compareBasedOnDashBoardCapacity;
     }
 }
 
