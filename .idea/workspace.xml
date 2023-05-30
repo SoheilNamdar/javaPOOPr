@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce85a625-8206-4e5d-afdd-a5e581600d8c" name="Changes" comment="Test done">
-      <change afterPath="$PROJECT_DIR$/src/test/vehicle/CarComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shop/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shop/ShoppingListService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shop/ShoppingListServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/shop/ItemTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/vehicle/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vehicle/car/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/collection/map/CompareCollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/collection/map/CompareCollectionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/compare/CompareCarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/compare/CompareCarTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/io/FileWriterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/io/FileWriterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +62,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="shop" />
       <recent name="collection.list" />
       <recent name="vehicle" />
       <recent name="" />
@@ -73,7 +73,7 @@
       <recent name="car" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CompareCarTest.should_sort_car_by_brand">
+  <component name="RunManager" selected="JUnit.test in java-pr">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="java-pr" />
@@ -136,22 +136,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompareCollectionTest.should_compare_non_hash_collections" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-pr" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="collection.map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="collection.map" />
-      <option name="MAIN_CLASS_NAME" value="collection.map.CompareCollectionTest" />
-      <option name="METHOD_NAME" value="should_compare_non_hash_collections" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FileWriterTest.should_write_in_a_file" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-pr" />
       <extension name="coverage">
@@ -168,21 +152,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test in java-pr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-pr" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.CompareCarTest.should_sort_car" />
       <item itemvalue="JUnit.CompareCarTest.should_sort_car_by_brand" />
       <item itemvalue="JUnit.CompareCollectionTest.should_compare_hash_collections" />
-      <item itemvalue="JUnit.CompareCollectionTest.should_compare_non_hash_collections" />
       <item itemvalue="JUnit.FileWriterTest.should_write_in_a_file" />
+      <item itemvalue="JUnit.test in java-pr" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.test in java-pr" />
         <item itemvalue="JUnit.CompareCarTest.should_sort_car_by_brand" />
         <item itemvalue="JUnit.CompareCarTest.should_sort_car" />
         <item itemvalue="JUnit.FileWriterTest.should_write_in_a_file" />
         <item itemvalue="JUnit.CompareCollectionTest.should_compare_hash_collections" />
-        <item itemvalue="JUnit.CompareCollectionTest.should_compare_non_hash_collections" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684774074684</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Test done">
+      <created>1685223792468</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1685223792468</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
