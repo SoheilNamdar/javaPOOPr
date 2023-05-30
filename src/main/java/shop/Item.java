@@ -8,4 +8,9 @@ public class Item {
         this.name = name;
         this.quantity = quantity;
     }
+
+    public void check() {
+        if (name == null)
+            throw new ItemNameException();
+    }
 }

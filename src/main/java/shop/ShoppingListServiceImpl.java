@@ -16,5 +16,8 @@ public class ShoppingListServiceImpl implements ShoppingListService{
             // quantity >= 0
             // quantity < 100
         // Save all items in DB
+        for (Item item : items){
+            item.check();
+        }
     }
 }
