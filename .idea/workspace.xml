@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce85a625-8206-4e5d-afdd-a5e581600d8c" name="Changes" comment="Test done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/shop/ItemQuantityException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shop/ShoppingListDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/shop/ShoppingListDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/shop/ShoppingListDAOImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/shop/ItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/shop/ItemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -72,7 +74,7 @@
       <recent name="car" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ItemTest">
+  <component name="RunManager" selected="JUnit.test in java-pr">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="java-pr" />
@@ -102,22 +104,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemTest.should_throw_item_name_exception_when_an_item_with_empty_name_exists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-pr" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="shop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="shop" />
-      <option name="MAIN_CLASS_NAME" value="shop.ItemTest" />
-      <option name="METHOD_NAME" value="should_throw_item_name_exception_when_an_item_with_empty_name_exists" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ItemTest.should_throw_item_quantity_exception_when_an_item_has_a_quantity_greater_than_100" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-pr" />
       <extension name="coverage">
@@ -134,7 +120,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemTest.should_throw_item_quantity_exception_when_an_item_has_a_quantity_less_than_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShoppingListDAOImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-pr" />
       <extension name="coverage">
         <pattern>
@@ -143,17 +129,32 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="shop" />
-      <option name="MAIN_CLASS_NAME" value="shop.ItemTest" />
-      <option name="METHOD_NAME" value="should_throw_item_quantity_exception_when_an_item_has_a_quantity_less_than_1" />
+      <option name="MAIN_CLASS_NAME" value="shop.ShoppingListDAOImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingListDAOImplTest.should_connect_to_my_sql_database" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-pr" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="shop" />
+      <option name="MAIN_CLASS_NAME" value="shop.ShoppingListDAOImplTest" />
+      <option name="METHOD_NAME" value="should_connect_to_my_sql_database" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="shop in java-pr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test in java-pr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-pr" />
       <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/shop" />
+      <dir value="$PROJECT_DIR$/src/test" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -161,18 +162,18 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.ItemTest" />
-      <item itemvalue="JUnit.ItemTest.should_throw_item_name_exception_when_an_item_with_empty_name_exists" />
       <item itemvalue="JUnit.ItemTest.should_throw_item_quantity_exception_when_an_item_has_a_quantity_greater_than_100" />
-      <item itemvalue="JUnit.ItemTest.should_throw_item_quantity_exception_when_an_item_has_a_quantity_less_than_1" />
-      <item itemvalue="JUnit.shop in java-pr" />
+      <item itemvalue="JUnit.ShoppingListDAOImplTest" />
+      <item itemvalue="JUnit.ShoppingListDAOImplTest.should_connect_to_my_sql_database" />
+      <item itemvalue="JUnit.test in java-pr" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.test in java-pr" />
+        <item itemvalue="JUnit.ShoppingListDAOImplTest.should_connect_to_my_sql_database" />
+        <item itemvalue="JUnit.ShoppingListDAOImplTest" />
         <item itemvalue="JUnit.ItemTest" />
         <item itemvalue="JUnit.ItemTest.should_throw_item_quantity_exception_when_an_item_has_a_quantity_greater_than_100" />
-        <item itemvalue="JUnit.ItemTest.should_throw_item_quantity_exception_when_an_item_has_a_quantity_less_than_1" />
-        <item itemvalue="JUnit.ItemTest.should_throw_item_name_exception_when_an_item_with_empty_name_exists" />
-        <item itemvalue="JUnit.shop in java-pr" />
       </list>
     </recent_temporary>
   </component>
@@ -332,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685439923029</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Test done">
+      <created>1685439940967</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1685439940967</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
