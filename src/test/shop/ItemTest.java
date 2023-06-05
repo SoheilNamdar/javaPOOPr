@@ -6,12 +6,13 @@ import java.util.LinkedList;
 import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
+// Acceptance Test
 public class ItemTest {
     private ShoppingListService shoppingList;
     private List<Item> itemList;
     @BeforeEach
     void setUp() {
-        shoppingList = new ShoppingListServiceImpl();
+        shoppingList = new ShoppingListServiceImpl(new ShoppingListDAOImplDouble());
         itemList = new LinkedList<>();
     }
 
@@ -53,5 +54,18 @@ public class ItemTest {
         itemList.add(new Item("Banana", 5));
 
         assertThrows(ItemQuantityException.class, () -> shoppingList.saveItems(itemList));
+    }
+
+    class ShoppingListDAOImplDouble implements ShoppingListDAO {
+
+        @Override
+        public List<Item> findAllItems() {
+            return null;
+        }
+
+        @Override
+        public void saveItems(List<Item> items) {
+            System.out.println("Save item of class ShoppingListDAOImplDouble is called");
+        }
     }
 }

@@ -31,7 +31,7 @@ public class ShoppingListDAOImpl implements ShoppingListDAO{
 
             }
         } catch (SQLException e) {
-            e.printStackTrace();
+            throw new MainSQLException(e);
         }
         return items;
     }
@@ -43,9 +43,8 @@ public class ShoppingListDAOImpl implements ShoppingListDAO{
             insert.setString(1,"orange");
             insert.setInt(2,5);
             insert.executeUpdate();
-
         } catch (SQLException e) {
-            e.printStackTrace();
+            throw new MainSQLException(e);
         }
     }
 }

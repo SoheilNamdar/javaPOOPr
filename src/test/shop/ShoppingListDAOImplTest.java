@@ -9,20 +9,11 @@ import java.sql.SQLException;
 import static java.sql.DriverManager.*;
 import static org.assertj.core.api.Assertions.*;
 
+// Integration Test
 public class ShoppingListDAOImplTest {
-
-    public static final String HOST = "jdbc:mysql://localhost:3306/shop?serverTimezone=UTC";
-    public static final String USER = "DevoPlus";
-    public static final String PASSWORD = "s";
-    public static final String ERROR = "connection to database is impossible";
-    public static final String INSERT_SQL = "INSERT INTO item (name,quantity) VALUES (?,?)";
-    public static final String SELECT_SQL = "SELECT * FROM item ORDER BY id DESC LIMIT 1";
-    public static final String DELETE = "DELETE FROM item ORDER BY id DESC LIMIT 1";
-    public static final String DELETE_SQL = DELETE;
-
     @Test
     void should_connect_to_my_sql_database() {
-        try (final Connection con = getConnection(HOST, USER, PASSWORD)) {  //DevoPlus //s
+        try (final Connection con = getConnection(HOST, USER, PASSWORD)) {
             if(con == null) {
                 fail(ERROR);
             }
@@ -31,6 +22,16 @@ public class ShoppingListDAOImplTest {
             fail(ERROR);
         }
     }
+
+    public static final String HOST = "jdbc:mysql://localhost:3306/shop?serverTimezone=UTC";
+    public static final String USER = "DevoPlus";
+    public static final String PASSWORD = "s";
+    public static final String ERROR = "connection to database is impossible";
+    public static final String INSERT_SQL = "INSERT INTO item (name,quantity) VALUES (?,?)";
+    public static final String SELECT_SQL = "SELECT * FROM item ORDER BY id DESC LIMIT 1";
+    public static final String DELETE = "DELETE FROM item ORDER BY id DESC LIMIT 1";
+
+    public static final String DELETE_SQL = DELETE;
 
     @Test
     void should_insert_read_and_delete_an_item_in_database() {
