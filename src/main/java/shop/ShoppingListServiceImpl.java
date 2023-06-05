@@ -6,7 +6,8 @@ public class ShoppingListServiceImpl implements ShoppingListService{
     @Override
     public List<Item> findAll() {
         // Get all items from DB : any logic
-        return null;
+        final ShoppingListDAO shoppingListDAO = new ShoppingListDAOImpl();
+        return shoppingListDAO.findAllItems();
     }
 
     @Override
@@ -19,5 +20,7 @@ public class ShoppingListServiceImpl implements ShoppingListService{
         for (Item item : items){
             item.check();
         }
+        final ShoppingListDAO shoppingListDAO = new ShoppingListDAOImpl();
+        shoppingListDAO.saveItems(items);
     }
 }
