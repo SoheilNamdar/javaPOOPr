@@ -4,368 +4,85 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ce85a625-8206-4e5d-afdd-a5e581600d8c" name="Changes" comment="Test done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/shop/MainSQLException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/ShoppingListDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/ShoppingListDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/ShoppingListServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/ShoppingListServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/shop/ItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/shop/ItemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/shop/ShoppingListDAOImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/shop/ShoppingListDAOImplTest.java" afterDir="false" />
+    <list default="true" id="e378b529-acc9-43dc-bcd7-72725031a92e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Enum" />
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="developper" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="2PmWxf1AsYCmq49ZWm8yicFtj32" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2Yvpu154Ota81le7Cxw9KRU1Y9I" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/s/7learn/javaPOOPr",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="shop" />
-      <recent name="collection.list" />
-      <recent name="vehicle" />
-      <recent name="" />
-      <recent name="car" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="vehicle" />
-      <recent name="car" />
-    </key>
-  </component>
-  <component name="RunManager" selected="JUnit.ItemTest">
-    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="java-pr" />
-      <option name="PROGRAM_PARAMETERS" value="BMW 50 AUTOMATIC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager">
+    <configuration name="javaPOOPr [install]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="cmdOptions" />
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="install" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="projectsCmdOptionValues">
+              <list />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
-    <configuration name="ItemTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-pr" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="shop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="shop" />
-      <option name="MAIN_CLASS_NAME" value="shop.ItemTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ItemTest.should_throw_item_quantity_exception_when_an_item_has_a_quantity_greater_than_100" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-pr" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="shop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="shop" />
-      <option name="MAIN_CLASS_NAME" value="shop.ItemTest" />
-      <option name="METHOD_NAME" value="should_throw_item_quantity_exception_when_an_item_has_a_quantity_greater_than_100" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShoppingListDAOImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-pr" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="shop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="shop" />
-      <option name="MAIN_CLASS_NAME" value="shop.ShoppingListDAOImplTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShoppingListDAOImplTest.should_connect_to_my_sql_database" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-pr" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="shop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="shop" />
-      <option name="MAIN_CLASS_NAME" value="shop.ShoppingListDAOImplTest" />
-      <option name="METHOD_NAME" value="should_connect_to_my_sql_database" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="shop in java-pr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="java-pr" />
-      <option name="TEST_OBJECT" value="directory" />
-      <dir value="$PROJECT_DIR$/src/test/shop" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.ItemTest" />
-      <item itemvalue="JUnit.ItemTest.should_throw_item_quantity_exception_when_an_item_has_a_quantity_greater_than_100" />
-      <item itemvalue="JUnit.ShoppingListDAOImplTest" />
-      <item itemvalue="JUnit.ShoppingListDAOImplTest.should_connect_to_my_sql_database" />
-      <item itemvalue="JUnit.shop in java-pr" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ItemTest" />
-        <item itemvalue="JUnit.ItemTest.should_throw_item_quantity_exception_when_an_item_has_a_quantity_greater_than_100" />
-        <item itemvalue="JUnit.ShoppingListDAOImplTest" />
-        <item itemvalue="JUnit.shop in java-pr" />
-        <item itemvalue="JUnit.ShoppingListDAOImplTest.should_connect_to_my_sql_database" />
+        <item itemvalue="Maven.javaPOOPr [install]" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ce85a625-8206-4e5d-afdd-a5e581600d8c" name="Changes" comment="" />
-      <created>1684062987241</created>
+      <changelist id="e378b529-acc9-43dc-bcd7-72725031a92e" name="Changes" comment="" />
+      <created>1701416128769</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1684062987241</updated>
+      <updated>1701416128769</updated>
     </task>
-    <task id="LOCAL-00001" summary="Test done">
-      <created>1684083711648</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1684083711648</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Test done">
-      <created>1684102312825</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1684102312825</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Test done">
-      <created>1684403440219</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1684403440219</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Test done">
-      <created>1684404189465</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1684404189465</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Test done">
-      <created>1684407890673</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1684407890673</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Test done">
-      <created>1684484154200</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1684484154200</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Test done">
-      <created>1684484945970</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1684484945970</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Test done">
-      <created>1684487855254</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1684487855254</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Test done">
-      <created>1684503839396</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1684503839396</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Test done">
-      <created>1684574035603</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1684574035603</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Test done">
-      <created>1684620724985</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1684620724985</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Test done">
-      <created>1684650545407</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1684650545407</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Test done">
-      <created>1684651835928</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1684651835928</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Test done">
-      <created>1684744154780</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1684744154780</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Test done">
-      <created>1684747268495</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1684747268495</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Test done">
-      <created>1684774074684</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1684774074684</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Test done">
-      <created>1685223792468</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1685223792468</updated>
-    </task>
-    <task id="LOCAL-00018" summary="Test done">
-      <created>1685431057918</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1685431057918</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Test done">
-      <created>1685432396044</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1685432396044</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Test done">
-      <created>1685436531647</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1685436531647</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Test done">
-      <created>1685439923029</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1685439923029</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Test done">
-      <created>1685439940967</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1685439940967</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Test done">
-      <created>1685694412096</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1685694412096</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Test done">
-      <created>1685962588506</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1685962588506</updated>
-    </task>
-    <option name="localTasksCounter" value="25" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Test done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test done" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/javaPOOPr$ItemTest_should_throw_item_quantity_exception_when_an_item_has_a_quantity_less_than_1.ic" NAME="ItemTest.should_throw_item_quantity_exception_when_an_item_has_a_quantity_less_than_1 Coverage Results" MODIFIED="1685438344532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>shop.*</FILTER>
-    </SUITE>
   </component>
 </project>
